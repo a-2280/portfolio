@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      name="description"
+      content="IT professional with strong expertise in HTML, CSS, JavaScript and React. Proficient in Python with CompTIA A+, Network+, and Security+ certifications. Quick learner who excels at problem-solving and creating effective technical solutions."
+    />
+
+    <meta itemprop="name" content="Khalif Williams's Portfolio" />
+    <meta
+      itemprop="description"
+      content="IT professional with strong expertise in HTML, CSS, JavaScript and React. Proficient in Python with CompTIA A+, Network+, and Security+ certifications. Quick learner who excels at problem-solving and creating effective technical solutions."
+    />
+
+    <link rel="shortcut icon" href="/assets/me.jpg" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Khalif William's Portfolio</title>
+  </head>
+
+  <body>
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button" class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <h1 class="h1">
+            <span>Hi, I'm Khalif Williams</span>
+            <span>Frontend Web Developer</span>
+          </h1>
+
+          <p class="header-text">
+            IT professional with strong expertise in HTML, CSS, JavaScript and
+            React. Proficient in Python with CompTIA A+, Network+, and Security+
+            certifications. Quick learner who excels at problem-solving and
+            creating effective technical solutions.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">My Work</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Lily's Portfolio</h3>
+                <p class="work-text">
+                  Photography portfolio made for Lily. Desgined by New Apology.
+                </p>
+                <ol class="work-technologies">
+                  <li>Astro</li>
+                  <li>TailWind</li>
+                </ol>
+
+                <div class="work-links">
+                  <a
+                    href="https://lilyballif.com/"
+                    target="_blank"
+                    rel="noopener"
+                    class="link"
+                    >View project</a
+                  >
+                </div>
+              </div>
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="/assets/Lily.png"
+                  alt="Lily's portfolio website"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Tip Calculator</h3>
+                <p class="work-text">
+                  Website for splitting the bill or getting tip amount.
+                </p>
+                <ol class="work-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ol>
+                <div class="work-links">
+                  <a
+                    href="https://tip-calculator6.netlify.app/"
+                    target="_blank"
+                    rel="noopener"
+                    class="link"
+                    >View project</a
+                  >
+                  <a
+                    href="https://github.com/a-2280/tip-calculator"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="/assets/github-mark.png"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="/assets/Tip.png"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+            <img
+              src="/assets/html.webp"
+              alt="HTML"
+              class="skills-img"
+              loading="lazy"
+              title="HTML"
+            />
+            <img
+              src="assets/css.png"
+              alt="CSS"
+              class="skills-img"
+              loading="lazy"
+              title="CSS"
+            />
+            <img
+              src="/assets/JavaScript.png"
+              alt="JavaScript"
+              class="skills-img"
+              loading="lazy"
+              title="JavaScript"
+            />
+            <img
+              src="/assets/react.png"
+              alt="React"
+              class="skills-img"
+              loading="lazy"
+              title="React"
+            />
+            <img
+              src="/assets/tailwind.png"
+              alt="TailWind"
+              class="skills-img"
+              loading="lazy"
+              title="TailWind"
+            />
+            <img
+              src="/assets/photoshop.png"
+              alt="Photoshop"
+              class="skills-img"
+              loading="lazy"
+              title="Photoshop"
+            />
+            <img
+              src="/assets/illustrator.png"
+              alt="Illustrator"
+              class="skills-img"
+              loading="lazy"
+              title="Illustrator"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As a software engineer, I construct web interfaces and design
+                systems with a special love for accessibility and performance. I
+                tend to code things from scratch and enjoy bringing ideas to
+                life.
+              </p>
+            </div>
+            <form name="contact" method="POST" class="contact-form" netlify>
+              <input type="hidden" name="form-name" value="contact" />
+
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a
+                  title="GitHub"
+                  href="https://github.com/a-2280"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    loading="lazy"
+                    src="/assets/github-mark.png"
+                    alt="GitHub"
+                  />
+                </a>
+              </li>
+              <li class="footer-link">
+                <a
+                  title="Linkedin"
+                  href="https://www.linkedin.com/in/khalif-williams-546759216/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    loading="lazy"
+                    src="/assets/linkedin.webp"
+                    alt="Linkedin"
+                  />
+                </a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">&copy; <span>2025</span></p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch" />
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
