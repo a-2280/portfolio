@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 /* --------------------------------- */
 /* ----- Basic Setup -----*/
 /* --------------------------------- */
@@ -60,7 +62,7 @@ body.light {
 }
 
 html {
-  font-family: "Mona Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   scroll-padding-top: var(--scroll-padding);
 }
